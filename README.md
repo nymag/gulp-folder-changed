@@ -9,7 +9,7 @@ npm install --save-dev gulp-folder-changed
 
 # Usage
 
-Pass this into something like [gulp-ignore](https://github.com/robrich/gulp-ignore) to pass through all files in a folder if one of those files has changed.
+Pass this into something like [gulp-ignore](https://github.com/robrich/gulp-ignore) to pass through all files in a folder if any of those files has changed.
 
 To match against a single file, pass in the file path:
 
