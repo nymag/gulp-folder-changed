@@ -1,6 +1,9 @@
 # gulp-folder-changed
 Gulp plugin to pass through files if they've changed
 
+[![Build Status](https://travis-ci.org/nymag/gulp-folder-changed.svg)](https://travis-ci.org/nymag/gulp-folder-changed)
+[![Code Climate](https://codeclimate.com/github/nymag/gulp-folder-changed/badges/gpa.svg)](https://codeclimate.com/github/nymag/gulp-folder-changed)
+
 # Install
 
 ```
