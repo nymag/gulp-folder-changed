@@ -22,5 +22,11 @@
   "dependencies": {
     "glob": "^5.0.5",
     "lodash": "^3.6.0"
+  },
+  "devDependencies": {
+    "chai": "^2.2.0",
+    "mocha": "^2.2.4",
+    "mock-fs": "^2.5.0",
+    "sinon": "^1.14.1"
   }
 }

@@ -1,3 +1,3 @@
 'use strict';
-require('./folder-changed.test.js');
-require('./util.test.js');
+require('../lib/util.test.js');
+require('../lib/folder-changed.test.js');
