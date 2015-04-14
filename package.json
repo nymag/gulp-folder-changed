@@ -1,0 +1,26 @@
+{
+  "name": "gulp-folder-changed",
+  "version": "1.0.0",
+  "description": "Gulp plugin to pass through files if they've changed",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nymag/gulp-folder-changed.git"
+  },
+  "keywords": [
+    "gulp"
+  ],
+  "author": "New York Media",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nymag/gulp-folder-changed/issues"
+  },
+  "homepage": "https://github.com/nymag/gulp-folder-changed",
+  "dependencies": {
+    "glob": "^5.0.5",
+    "lodash": "^3.6.0"
+  }
+}
