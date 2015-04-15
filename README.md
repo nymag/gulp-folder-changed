@@ -140,8 +140,8 @@ function getName(filePath) {
 }
 
 // src/foo/styles/a.css -> src/foo
-function getFolder(filePath) {
-  return _.dropRight(path.dirname(filePath).split(path.sep));
+function getFolder(parentName) {
+  return path.join('src', parentName, 'styles');
 }
 
 gulp.src('src/**/*.css')
