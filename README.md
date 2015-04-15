@@ -139,7 +139,7 @@ function getName(filePath) {
   return _.last(_.dropRight(path.dirname(filePath).split(path.sep)));
 }
 
-// src/foo/styles/a.css -> src/foo
+// foo -> src/foo/styles
 function getFolder(parentName) {
   return path.join('src', parentName, 'styles');
 }
