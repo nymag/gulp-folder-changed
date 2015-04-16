@@ -33,6 +33,26 @@ gulp.src('src/*.css')
   .pipe(doSomethingWithTheChangedFiles);
 ```
 
+If you want to match against more than one file, use a glob:
+
+```
+dest/
+  styles-1.css
+  styles-2.css
+src/
+  a.css
+  b.css
+```
+
+```js
+var ignore = require('gulp-ignore'),
+  folderChanged = require('gulp-folder-changed');
+
+gulp.src('src/*.css')
+  .pipe(ignore.include(folderChanged('dest/styles-*.css')))
+  .pipe(doSomethingWithTheChangedFiles);
+```
+
 You can also match against files with the same name as the source files:
 
 ```
