@@ -1,6 +1,6 @@
 {
   "name": "gulp-folder-changed",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Gulp plugin to pass through files if they've changed",
   "main": "index.js",
   "scripts": {
