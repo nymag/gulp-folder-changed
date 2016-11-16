@@ -21,7 +21,7 @@
   "homepage": "https://github.com/nymag/gulp-folder-changed",
   "dependencies": {
     "glob": "^6.0.1",
-    "lodash": "^3.6.0"
+    "lodash": "^4.17.2"
   },
   "devDependencies": {
     "chai": "^3.4.1",
